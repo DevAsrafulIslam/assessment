@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaHandHoldingHeart } from "react-icons/fa";
 import { Settings } from "lucide-react";
 import { SideUser } from "./components/sideuser/sideuser";
+import { Message } from "./components/message/message";
 import { KarateCourse } from "./components/karatecourse/karatecourse";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <div className="grid gap-4 ">
               <div className="shadow-md bg-white border rounded-3xl p-4 ">
                 <KarateCourse />
+                <Message />
               </div>
             </div>
           </div>
